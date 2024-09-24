@@ -126,6 +126,10 @@
   transform: translateZ(0);
 }
 
+.bg-hero-pattern {
+  background-image: url(/src/assets/herobg.png);
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
