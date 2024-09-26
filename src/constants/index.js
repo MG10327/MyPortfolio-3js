@@ -37,8 +37,13 @@ import {
       id: "contact",
       title: "Contact",
     },
+<<<<<<< HEAD
+  ];
+
+=======
   ];    
   
+>>>>>>> e34046cdb5b7573de0fb581ffd2529aeddb9377e
   const services = [
     {
       title: "Web Developer",
