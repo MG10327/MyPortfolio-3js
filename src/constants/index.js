@@ -21,8 +21,7 @@ import {
     shopify,
     carrent,
     jobit,
-    tripguide,
-    threejs,
+    tripguide
   } from "../assets";
   
   export const navLinks = [
@@ -38,8 +37,13 @@ import {
       id: "contact",
       title: "Contact",
     },
+<<<<<<< HEAD
   ];
 
+=======
+  ];    
+  
+>>>>>>> e34046cdb5b7573de0fb581ffd2529aeddb9377e
   const services = [
     {
       title: "Web Developer",
@@ -95,10 +99,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
