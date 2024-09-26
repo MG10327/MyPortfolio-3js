@@ -21,8 +21,7 @@ import {
     shopify,
     carrent,
     jobit,
-    tripguide,
-    threejs,
+    tripguide
   } from "../assets";
   
   export const navLinks = [
@@ -95,10 +94,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
