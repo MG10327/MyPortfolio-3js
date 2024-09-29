@@ -4,9 +4,6 @@ import emailjs from '@emailjs/browser'
 import {styles} from '../styles'
 import { slideIn } from '../utils/motion'
 
-//template_8ej90sg Template ID
-//service_1tlh0nm Service Key
-//fLutRRQR19fqKV_Wd Public Key
 
 
 const Contact = () => {
@@ -25,7 +22,42 @@ const Contact = () => {
     setform({...form, [name]: value})
   }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+
+    //template_8ej90sg Template ID
+    //service_1tlh0nm Service Key
+    //fLutRRQR19fqKV_Wd Public Key
+
+    emailjs.send(
+      'service_1tlh0nm',
+      'template_8ej90sg',
+      {
+        from_name: form.name,
+        to_name: 'Marcus',
+        from_email: form.email,
+        to_email: 'marcusgrahambusiness@gmail.com',
+        message: form.message
+      },
+      'fLutRRQR19fqKV_Wd'
+    )
+    .then(()=> {
+      setLoading(false)
+      alert('Thank you. I will get back to you as soon as possible.')
+
+      setform({
+        name:"",
+        email:"",
+        message:"",
+      }, (error)=>{
+        setLoading(false)
+        console.log(error)
+        alert('Something went wrong')
+      })
+    })
+  }
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
