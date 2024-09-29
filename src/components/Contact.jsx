@@ -4,6 +4,10 @@ import emailjs from '@emailjs/browser'
 import {styles} from '../styles'
 import { slideIn } from '../utils/motion'
 
+//template_8ej90sg Template ID
+//service_1tlh0nm Service Key
+//fLutRRQR19fqKV_Wd Public Key
+
 
 const Contact = () => {
   const formRef = useRef()
@@ -15,7 +19,11 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+
+    setform({...form, [name]: value})
+  }
 
   const handleSubmit = (e) => {}
 
