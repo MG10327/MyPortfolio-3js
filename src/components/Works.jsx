@@ -4,6 +4,24 @@ import {styles} from '../styles'
 import { github } from '../assets'
 import {projects} from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
+import { Tilt } from 'react-tilt'
+
+const ProjectCard = ({index, name, description, tags, image, source_code_link})=> {
+  return (
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <Tilt options={{
+        max: 45,
+        scale: 1,
+        speed: 450
+      }}
+      className="bg-[#161030] p-5 rounded-2xl sm:w-[360px] w-full">
+        <div className="relative w-full h-[230px]">
+          <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
+        </div>
+      </Tilt>
+    </motion.div>
+  )
+}
 
 const Works = () => {
   return (
@@ -18,8 +36,18 @@ const Works = () => {
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 text-gray-300 text-[17px] max-w-3xl leading-[30px]'>
-
+            Each Project that you see here showcases my ability as a developer. The first batch showcases my skills as a Front End Developer, and there are more full stack projects to come.
+            Below you will see a link to a live demo for each project and a github link to view the source code, where I solved problems, flexed my skils, and improved my abilities along the way. They are all examples of growth towards the future.
         </motion.p>
+      </div>
+
+      <div className='mt-20 flex flex-wrap gap-7'>
+        {projects.map((project, index)=> (
+          <ProjectCard key={`project-${index}`}
+          index={index}
+          {...project}
+          />
+        ))}
       </div>
 
     </div>
