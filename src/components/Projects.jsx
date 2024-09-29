@@ -23,11 +23,18 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link})=
             </div>
           </div>
         </div>
-        
+
         <div className='mt-5'>
-            <h3>{name}</h3>
-            <h3>{description}</h3>
-          </div>
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-gray-300 text-[14px]">{description}</p>
+          <p className="mt-2 text-white text-[14px] cursor-pointer text-[#ffe200]" onClick={()=> window.open(source_code_link, "_blank")} >CLICK HERE FOR SOURCE CODE</p>
+        </div>
+
+        <div className="mt-4 flex flex-wrap gap-2">
+          {tags.map((tag)=> (
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+          ))}
+        </div>
       </Tilt>
     </motion.div>
   )
@@ -51,7 +58,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index)=> (
           <ProjectCard key={`project-${index}`}
           index={index}
