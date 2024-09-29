@@ -11,7 +11,10 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    handlebars,
+    npm,
+    jest,
+    aws,
     git,
     figma,
     docker,
@@ -93,8 +96,20 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Handlebars",
+      icon: handlebars,
+    },
+    {
+      name: "NPM",
+      icon: npm,
+    },
+    {
+      name: "Jest",
+      icon: jest,
+    },
+    {
+      name: "Amazon Web Services",
+      icon: aws,
     },
     {
       name: "Three JS",
