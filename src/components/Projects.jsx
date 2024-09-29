@@ -27,7 +27,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link})=
         <div className='mt-5'>
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-gray-300 text-[14px]">{description}</p>
-          <p className="mt-2 text-white text-[14px] cursor-pointer text-[#ffe200]" onClick={()=> window.open(source_code_link, "_blank")} >CLICK HERE FOR SOURCE CODE</p>
+          <p className="mt-2 text-[14px] cursor-pointer text-[#ffe200]" onClick={()=> window.open(source_code_link, "_blank")} >CLICK HERE FOR SOURCE CODE</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -40,7 +40,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link})=
   )
 }
 
-const Works = () => {
+const Projects = () => {
   return (
     <div className='mt-20'>
 
@@ -71,4 +71,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default Projects
