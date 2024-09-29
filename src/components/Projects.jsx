@@ -40,7 +40,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link})=
   )
 }
 
-const Works = () => {
+const Projects = () => {
   return (
     <div className='mt-20'>
 
@@ -71,4 +71,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default Projects
