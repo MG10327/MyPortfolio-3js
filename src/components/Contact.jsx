@@ -37,6 +37,18 @@ const Contact = () => {
             <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="What's your name?"
             className='bg-[#2e2654] py-4 px-6 placeholder:text-gray-300 text-white rounded-lg outlined-none border-none font-medium ' />
           </label>
+
+          <label className="flex flex-col">
+            <span className='text-white font-medium mb-4'>Your Email</span>
+            <input type="text" name="email" value={form.email} onChange={handleChange} placeholder="What's your email?"
+            className='bg-[#2e2654] py-4 px-6 placeholder:text-gray-300 text-white rounded-lg outlined-none border-none font-medium ' />
+          </label>
+
+          <label className="flex flex-col">
+            <span className='text-white font-medium mb-4'>Your Email</span>
+            <textarea rows="7" name="message" value={form.message} onChange={handleChange} placeholder="What do you want to say?"
+            className='bg-[#2e2654] py-4 px-6 placeholder:text-gray-300 text-white rounded-lg outlined-none border-none font-medium ' />
+          </label>
         </form>
 
       </motion.div>
