@@ -6,18 +6,17 @@ import CanvasLoader from '../Loader'
 
 export const Computers = ({isMobile}) => {
 
-  const computer = useGLTF('../../../../public/desktop_pc/scene.gltf')
-
+  const computer = useGLTF('./desktop_pc/scene.gltf')
 
   return (
 
     <mesh>
       <ambientLight intensity={1} groundColor="black" />
-      <directionalLight intensity={2} angle={0.12} penumbra={1} castShadow position={[-20, 50, 10]} />
+      <directionalLight intensity={2} angle={0.12} penumbra={1} castShadow shadow-mapSize={1024} position={[-20, 50, 10]} />
       <primitive
       object={computer.scene}
-      scale={isMobile ? 0.3 : 0.5}
-      position={isMobile ? [0, -0.25, -0.5] : [0, -1.25, -1]}
+      scale={isMobile ? 0.5 : 0.5}
+      position={isMobile ? [0, -1.5, -1] : [0, -1.25, -1]}
       rotate={[0, -3.25, -1.5]}
       />
     </mesh>
@@ -29,25 +28,25 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false)
 
   useEffect(()=> {
-    const mediaQuery = window.matchMedia(
+    const mediaQueryW = window.matchMedia(
       "(max-width: 687px)")
 
-      setIsMobile(mediaQuery.matches)
+      setIsMobile(mediaQueryW.matches)
 
       const handleMediaQueryChange = (event) => {
         setIsMobile(event.matches);
       }
 
-      mediaQuery.addEventListener('change', handleMediaQueryChange);
+      mediaQueryW.addEventListener('change', handleMediaQueryChange);
 
       return () => {
-        mediaQuery.removeEventListener('change', handleMediaQueryChange)
+        mediaQueryW.removeEventListener('change', handleMediaQueryChange)
       }
   }, []);
 
    return (
     <Canvas
-    frameloop='demand'
+    frameLoop='demand'
     shadows
     camera={{position: [20,3,5], fov: 25}}
     gl={{preserveDrawingBuffer: true}}>
