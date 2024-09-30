@@ -28,8 +28,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -161,6 +161,7 @@ import {
       ],
       image: VidTube,
       source_code_link: "https://github.com/MG10327/YoutubeClone",
+      live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
     },
     {
       name: "ChatGPT Remake",
@@ -182,6 +183,7 @@ import {
       ],
       image: chatGPT,
       source_code_link: "https://github.com/MG10327/ChatGPTClone",
+      live_demo_link: "https://chat-gpt-clone-vert-one.vercel.app/"
     },
     {
       name: "Quiz App",
@@ -203,6 +205,7 @@ import {
       ],
       image: QuizApp,
       source_code_link: "https://github.com/MG10327/QuizApp-FrontEnd/tree/main",
+      live_demo_link: "https://quiz-app-front-6oldyx7zz-mg10327s-projects.vercel.app/"
     },
     {
       name: "Basic Slider Web Page",
@@ -224,6 +227,7 @@ import {
       ],
       image: slider,
       source_code_link: "https://github.com/MG10327/BasicWebPage-FrontEnd",
+      live_demo_link: "https://basic-web-page-front-end.vercel.app/"
     },
     {
       name: "Bookshelf App",
@@ -240,7 +244,8 @@ import {
         },
       ],
       image: bookshelf,
-      source_code_link: "https://github.com/MG10327/Bookshelf-App/blob/main/package.json",
+      source_code_link: "https://github.com/MG10327/Bookshelf-App/",
+      live_demo_link: "https://bookshelf-app-jet.vercel.app/"
     },
     {
       name: "Tic Tac Toe",
@@ -262,6 +267,7 @@ import {
       ],
       image: TicTacToe,
       source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
+      live_demo_link: "https://tic-tac-toe-front-end-sigma.vercel.app/"
     },
     {
       name: "Front End Sign Up Form",
@@ -283,6 +289,7 @@ import {
       ],
       image: FESignup,
       source_code_link: "https://github.com/MG10327/SignUpForm-FrontEnd/tree/main",
+      live_demo_link: "https://sign-up-form-front-end.vercel.app/"
     },
   ];
   
