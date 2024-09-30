@@ -18,9 +18,13 @@ import rapidcourt from "./company/rapidcourt.webp";
 import codesit from "./company/codesit-logo.webp";
 import criticalmass from "./company/criticalmasslogo.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import slider from "./BasicSlider.png";
+import bookshelf from "./bookshelf.png";
+import chatGPT from "./chatGPT.png";
+import FESignup from "./FESignup.png";
+import QuizApp from "./QuizApp.png";
+import TicTacToe from "./TicTacToe.png";
+import VidTube from "./VidTube.png";
 
 export {
   backend,
@@ -40,7 +44,11 @@ export {
   criticalmass,
   rapidcourt,
   codesit,
-  carrent,
-  jobit,
-  tripguide,
+  slider,
+  bookshelf,
+  chatGPT,
+  FESignup,
+  QuizApp,
+  TicTacToe,
+  VidTube,
 };

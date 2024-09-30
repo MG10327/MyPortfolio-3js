@@ -13,9 +13,13 @@ import {
     criticalmass,
     codesit,
     rapidcourt,
-    carrent,
-    jobit,
-    tripguide,
+    slider,
+    bookshelf,
+    chatGPT,
+    FESignup,
+    QuizApp,
+    TicTacToe,
+    VidTube,
   } from "../assets";
   
   export const navLinks = [
@@ -155,7 +159,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: VidTube,
       source_code_link: "https://github.com/MG10327/YoutubeClone",
     },
     {
@@ -176,29 +180,109 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: chatGPT,
       source_code_link: "https://github.com/MG10327/ChatGPTClone",
     },
     {
-      name: "BookShelf App",
+      name: "Quiz App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "sass",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: QuizApp,
+      source_code_link: "https://github.com/MG10327/QuizApp-FrontEnd/tree/main",
+    },
+    {
+      name: "Basic Slider Web Page",
+      description:
+        "A single page web app with a slider that has play / pause options for video.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: slider,
+      source_code_link: "https://github.com/MG10327/BasicWebPage-FrontEnd",
+    },
+    {
+      name: "Bookshelf App",
+      description:
+        "A React Web App that lets users lookup books using an API that allows saving, rating, and leaving comments. This app also supports user registration and login functionality with authentication and data protection.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookshelf,
+      source_code_link: "https://github.com/MG10327/Bookshelf-App/blob/main/package.json",
+    },
+    {
+      name: "Tic Tac Toe",
+      description:
+        "A simple React Tic Tac Toe application that records user inputs and decides a winner based on a set of Javascript combinations.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: TicTacToe,
+      source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
+    },
+    {
+      name: "Front End Only Sign Up Form",
+      description:
+        "A basic React Front End only sign up form.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: FESignup,
+      source_code_link: "https://github.com/MG10327/SignUpForm-FrontEnd/tree/main",
     },
   ];
   
