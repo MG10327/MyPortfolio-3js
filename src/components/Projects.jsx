@@ -45,7 +45,7 @@ const Projects = () => {
     <div className='mt-20'>
 
       <motion.div variants={textVariant()} className=' m-20 mb-0'>
-        <p className={styles.sectionSubText}>My Work</p>
+        <p className={styles.sectionSubText} id="projects">My Work</p>
         <p className={styles.sectionHeadText}>Projects.</p>
       </motion.div>
 
