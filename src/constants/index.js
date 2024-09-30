@@ -9,13 +9,17 @@ import {
     css,
     reactjs,
     tailwind,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    edreamz,
+    criticalmass,
+    codesit,
+    rapidcourt,
+    slider,
+    bookshelf,
+    chatGPT,
+    FESignup,
+    QuizApp,
+    TicTacToe,
+    VidTube,
   } from "../assets";
   
   export const navLinks = [
@@ -81,119 +85,94 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Junior Full Stack Developer",
+      company_name: "E-Dreamz",
+      icon: edreamz,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2016 - February 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to and maintained over 16 websites on a regular basis, built in HTML, CSS, JavaScript and PHP",
+        "Completed updates and built sites according to Photoshop designs",
+        "Performed regular maintence on 16 sites and wrote team wide documentation for each",
+        "Participated in team wide build discussions to keep project completion on track",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Front End Development Instructor",
+      company_name: "Charlotte Codes It",
+      icon: codesit,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2018 - February 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Taught a class of 20 new developers the fundamentals of HTML, CSS, and JavaScript",
+        "Created Several example pages and helped people new to development understand and troubleshoot",
+        "Fixed several errors for new developers and taught them to solve similar issues in the future",
+        "Helped mentor 20 people from being unfamiliar with HTML, CSS, and JS to being able to use it alone.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full Stack Developer",
+      company_name: "RapidCourt",
+      icon: rapidcourt,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "February 2019 - December 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintained several ColdFusion based websites and systems on a small team of developers",
+        "Re-designed and built the new RapidCourt Front End with HTML, CSS, and JavaScript",
+        "Participated in Project meetings to keep project completion on track",
+        "Spearheaded developing a new system to meet all departments internal needs.",
+        "Participated in code reviews and providing constructive feedback to other developers."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Front End Developer",
+      company_name: "Critical Mass at Apple",
+      icon: criticalmass,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "December 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led several projects at Apple during Agile project splits, all built in HTML, CSS / SASS, JavaScript, and Handlebars",
+        "Worked with a large Design, Developer, and QA team to update all Apple watch pages, create new Javascript animations, and code out pixel perfect sites.",
+        "Wrote team wide documentation to help myself, more seasoned developers, and newer devs solve errors quickly and onbard others.",
+        "Participated in code reviews and provided constructive feedback to other developers.",
+        "Worked with a set of design standards that apply to all projects to create uniform sites."
       ],
     },
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "VidTube",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Front End React App that uses the Youtube API to serve Youtube videos and Youtube data the same way the original website does.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "sass",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: VidTube,
+      source_code_link: "https://github.com/MG10327/YoutubeClone",
     },
     {
-      name: "Job IT",
+      name: "ChatGPT Remake",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A React Web application that enables users to request and recieve detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
@@ -201,30 +180,110 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: chatGPT,
+      source_code_link: "https://github.com/MG10327/ChatGPTClone",
     },
     {
-      name: "Trip Guide",
+      name: "Quiz App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "sass",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: QuizApp,
+      source_code_link: "https://github.com/MG10327/QuizApp-FrontEnd/tree/main",
+    },
+    {
+      name: "Basic Slider Web Page",
+      description:
+        "A single page web app with a slider that has play / pause options for video.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: slider,
+      source_code_link: "https://github.com/MG10327/BasicWebPage-FrontEnd",
+    },
+    {
+      name: "Bookshelf App",
+      description:
+        "A React Web App that lets users lookup books using an API that allows saving, rating, and leaving comments. This app also supports user registration and login functionality with authentication and data protection.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookshelf,
+      source_code_link: "https://github.com/MG10327/Bookshelf-App/blob/main/package.json",
+    },
+    {
+      name: "Tic Tac Toe",
+      description:
+        "A simple React Tic Tac Toe application that records user inputs and decides a winner based on a set of Javascript combinations.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: TicTacToe,
+      source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
+    },
+    {
+      name: "Front End Sign Up Form",
+      description:
+        "A basic React Front End only sign up form.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: FESignup,
+      source_code_link: "https://github.com/MG10327/SignUpForm-FrontEnd/tree/main",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

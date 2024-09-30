@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -14,17 +13,20 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import edreamz from "./company/edreamz-logo.png";
+import rapidcourt from "./company/rapidcourt.webp";
+import codesit from "./company/codesit-logo.webp";
+import criticalmass from "./company/criticalmasslogo.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import slider from "./BasicSlider.png";
+import bookshelf from "./bookshelf.png";
+import chatGPT from "./chatGPT.png";
+import FESignup from "./FESignup.png";
+import QuizApp from "./QuizApp.png";
+import TicTacToe from "./TicTacToe.png";
+import VidTube from "./VidTube.png";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -38,11 +40,15 @@ export {
   reactjs,
   tailwind,
   typescript,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  edreamz,
+  criticalmass,
+  rapidcourt,
+  codesit,
+  slider,
+  bookshelf,
+  chatGPT,
+  FESignup,
+  QuizApp,
+  TicTacToe,
+  VidTube,
 };
