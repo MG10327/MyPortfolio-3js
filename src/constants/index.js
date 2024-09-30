@@ -264,7 +264,7 @@ import {
       source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
     },
     {
-      name: "Front End Only Sign Up Form",
+      name: "Front End Sign Up Form",
       description:
         "A basic React Front End only sign up form.",
       tags: [
