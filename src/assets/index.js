@@ -21,7 +21,7 @@ import criticalmass from "./company/criticalmasslogo.jpg";
 import slider from "./BasicSlider.png";
 import bookshelf from "./bookshelf.png";
 import chatGPT from "./chatGPT.png";
-import FESignup from "./FESignup.png";
+import FESignup from "./FESignUp.png";
 import QuizApp from "./QuizApp.png";
 import TicTacToe from "./TicTacToe.png";
 import VidTube from "./VidTube.png";
