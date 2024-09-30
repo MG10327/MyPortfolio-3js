@@ -24,7 +24,7 @@ import chatGPT from "./chatGPT.png";
 import FESignup from "./FESignUp.png";
 import QuizApp from "./QuizApp.png";
 import TicTacToe from "./TicTacToe.png";
-import VidTube from "./VidTube.png";
+import VidTube from "./VidTube.png"; 
 
 export {
   backend,
