@@ -54,7 +54,7 @@ const Projects = () => {
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className=' m-20 my-4 text-gray-300 text-[17px] max-w-3xl leading-[30px]'>
-            Each Project that you see here showcases my ability as a developer. The first batch showcases my skills as a Front End Developer, and there are more full stack projects to come.
+            Each Project that you see here showcases my ability as a developer. The first batch showcases my skills as a Front End Developer.
             Below you will see a link to a live demo for each project and a github link to view the source code, where I solved problems, flexed my skils, and improved my abilities along the way. They are all examples of growth towards the future.
         </motion.p>
       </div>
