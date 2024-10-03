@@ -311,7 +311,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: FESignup,
+      image: Weather,
       source_code_link: "https://github.com/MG10327/WeatherApp/tree/main",
       live_demo_link: "https://weather-app-murex-alpha-98.vercel.app/"
     },
@@ -333,7 +333,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: FESignup,
+      image: TodoList,
       source_code_link: "https://github.com/MG10327/TodoList",
       live_demo_link: "https://todo-list-three-vert.vercel.app/"
     },
