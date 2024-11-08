@@ -27,6 +27,7 @@ import TicTacToe from "./TicTacToe.png";
 import VidTube from "./VidTube.png";
 import Weather from "./WeatherApp.png";
 import TodoList from "./TodoList.png";
+import iPhone15Pro from "./iPhone15Pro.png"
 
 export {
   backend,
@@ -54,5 +55,6 @@ export {
   TicTacToe,
   VidTube,
   Weather,
-  TodoList
+  TodoList,
+  iPhone15Pro
 };

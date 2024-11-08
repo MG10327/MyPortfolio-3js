@@ -21,7 +21,8 @@ import {
     TicTacToe,
     VidTube,
     Weather,
-    TodoList
+    TodoList,
+    iPhone15Pro
   } from "../assets";
   
   export const navLinks = [
@@ -94,8 +95,8 @@ import {
       date: "January 2016 - February 2018",
       points: [
         "Contributed to and maintained over 16 websites on a regular basis, built in HTML, CSS, JavaScript and PHP",
-        "Completed updates and built sites according to Photoshop designs",
-        "Performed regular maintence on 16 sites and wrote team wide documentation for each",
+        "Completed updates and built sites according to PhotoShop designs",
+        "Performed regular maintenance on 16 sites and wrote team wide documentation for each",
         "Participated in team wide build discussions to keep project completion on track",
       ],
     },
@@ -135,7 +136,7 @@ import {
       points: [
         "Led several projects at Apple during Agile project splits, all built in HTML, CSS / SASS, JavaScript, and Handlebars",
         "Worked with a large Design, Developer, and QA team to update all Apple watch pages, create new Javascript animations, and code out pixel perfect sites.",
-        "Wrote team wide documentation to help myself, more seasoned developers, and newer devs solve errors quickly and onbard others.",
+        "Wrote team wide documentation to help myself, more seasoned developers, and newer devs solve errors quickly and on-board others.",
         "Participated in code reviews and provided constructive feedback to other developers.",
         "Worked with a set of design standards that apply to all projects to create uniform sites."
       ],
@@ -166,9 +167,31 @@ import {
       live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
     },
     {
+      name: "iPhone 15 Pro Release",
+      description:
+        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel with that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: iPhone15Pro,
+      source_code_link: "https://github.com/MG10327/iPhoneSite",
+      live_demo_link: "https://i-phone-15-three.vercel.app/"
+    },
+    {
       name: "ChatGPT Remake",
       description:
-        "A React Web application that enables users to request and recieve detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
+        "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
       tags: [
         {
           name: "react",
