@@ -22,7 +22,8 @@ import {
     VidTube,
     Weather,
     TodoList,
-    iPhone15Pro
+    iPhone15Pro,
+    BankApp
   } from "../assets";
   
   export const navLinks = [
@@ -224,7 +225,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: chatGPT,
+      image: BankApp,
       source_code_link: "https://github.com/MG10327/BankApp",
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
     },
