@@ -211,6 +211,24 @@ import {
       live_demo_link: "https://chat-gpt-clone-vert-one.vercel.app/"
     },
     {
+      name: "Bank App",
+      description:
+        "A simple React App that uses static imported json data to to render text on the page. Along with various flex and gradient styles. Made to resemble a bank's homepage.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+      ],
+      image: chatGPT,
+      source_code_link: "https://github.com/MG10327/BankApp",
+      live_demo_link: "https://bank-app-blue-delta.vercel.app/"
+    },
+    {
       name: "Quiz App",
       description:
         "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",

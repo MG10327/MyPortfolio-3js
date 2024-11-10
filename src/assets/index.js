@@ -28,6 +28,7 @@ import VidTube from "./VidTube.png";
 import Weather from "./WeatherApp.png";
 import TodoList from "./TodoList.png";
 import iPhone15Pro from "./iPhone15Pro.png"
+import BankApp from "./BankApp.png"
 
 export {
   backend,
@@ -56,5 +57,6 @@ export {
   VidTube,
   Weather,
   TodoList,
-  iPhone15Pro
+  iPhone15Pro,
+  BankApp
 };
