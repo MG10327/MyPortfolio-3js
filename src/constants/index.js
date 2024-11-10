@@ -230,6 +230,24 @@ import {
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
     },
     {
+      name: "Bookshelf App",
+      description:
+        "A React Web App that lets users lookup books using an API that allows saving, rating, and leaving comments. This app also supports user registration and login functionality with authentication and data protection.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookshelf,
+      source_code_link: "https://github.com/MG10327/Bookshelf-App/",
+      live_demo_link: "https://bookshelf-app-jet.vercel.app/"
+    },
+    {
       name: "Quiz App",
       description:
         "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
@@ -272,46 +290,6 @@ import {
       image: slider,
       source_code_link: "https://github.com/MG10327/BasicWebPage-FrontEnd",
       live_demo_link: "https://basic-web-page-front-end.vercel.app/"
-    },
-    {
-      name: "Bookshelf App",
-      description:
-        "A React Web App that lets users lookup books using an API that allows saving, rating, and leaving comments. This app also supports user registration and login functionality with authentication and data protection.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bookshelf,
-      source_code_link: "https://github.com/MG10327/Bookshelf-App/",
-      live_demo_link: "https://bookshelf-app-jet.vercel.app/"
-    },
-    {
-      name: "Tic Tac Toe",
-      description:
-        "A simple React Tic Tac Toe application that records user inputs and decides a winner based on a set of Javascript combinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: TicTacToe,
-      source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
-      live_demo_link: "https://tic-tac-toe-front-end-sigma.vercel.app/"
     },
     {
       name: "Front End Sign Up Form",
@@ -378,6 +356,28 @@ import {
       image: TodoList,
       source_code_link: "https://github.com/MG10327/TodoList",
       live_demo_link: "https://todo-list-three-vert.vercel.app/"
+    },
+    {
+      name: "Tic Tac Toe",
+      description:
+        "A simple React Tic Tac Toe application that records user inputs and decides a winner based on a set of Javascript combinations.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: TicTacToe,
+      source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
+      live_demo_link: "https://tic-tac-toe-front-end-sigma.vercel.app/"
     },
   ];
   
