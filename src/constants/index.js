@@ -170,7 +170,7 @@ import {
     {
       name: "iPhone 15 Pro Release",
       description:
-        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel with that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
+        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
       tags: [
         {
           name: "react",
