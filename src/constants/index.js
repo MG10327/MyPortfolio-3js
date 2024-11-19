@@ -23,7 +23,8 @@ import {
     Weather,
     TodoList,
     iPhone15Pro,
-    BankApp
+    BankApp,
+    RealEstate
   } from "../assets";
   
   export const navLinks = [
@@ -166,6 +167,28 @@ import {
       image: VidTube,
       source_code_link: "https://github.com/MG10327/YoutubeClone",
       live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
+    },
+    {
+      name: "Real Estate",
+      description:
+        "This site displays Real Estate API Data with search and filter options for users. It also displays individual product pages that render each property's info.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "chakraui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RealEstate,
+      source_code_link: "https://github.com/MG10327/RealEstate",
+      live_demo_link: "https://real-estate-oc3t44een-mg10327s-projects.vercel.app/"
     },
     {
       name: "iPhone 15 Pro Release",

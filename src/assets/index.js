@@ -29,6 +29,7 @@ import Weather from "./WeatherApp.png";
 import TodoList from "./TodoList.png";
 import iPhone15Pro from "./iPhone15Pro.png"
 import BankApp from "./BankApp.png"
+import RealEstate from "./RealEstate.png"
 
 export {
   backend,
@@ -58,5 +59,6 @@ export {
   Weather,
   TodoList,
   iPhone15Pro,
-  BankApp
+  BankApp,
+  RealEstate
 };
