@@ -24,7 +24,8 @@ import {
     TodoList,
     iPhone15Pro,
     BankApp,
-    RealEstate
+    RealEstate,
+    CarShow,
   } from "../assets";
   
   export const navLinks = [
@@ -189,6 +190,28 @@ import {
       image: RealEstate,
       source_code_link: "https://github.com/MG10327/RealEstate",
       live_demo_link: "https://real-estate-oc3t44een-mg10327s-projects.vercel.app/"
+    },
+    {
+      name: "Car Show",
+      description:
+        "This uses server side rendering (with a client side rendering variant) to display API data of cars from a dropdown search bar. It's a NextJS project that uses a combination of flex styles, React, HTML, JavaScript, and Tailwind CSS.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RealEstate,
+      source_code_link: "https://github.com/MG10327/CarShow",
+      live_demo_link: "https://car-show-htoozoccs-mg10327s-projects.vercel.app/"
     },
     {
       name: "iPhone 15 Pro Release",
