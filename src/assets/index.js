@@ -30,6 +30,7 @@ import TodoList from "./TodoList.png";
 import iPhone15Pro from "./iPhone15Pro.png"
 import BankApp from "./BankApp.png"
 import RealEstate from "./RealEstate.png"
+import CarShow from "./CarShow.png"
 
 export {
   backend,
@@ -60,5 +61,6 @@ export {
   TodoList,
   iPhone15Pro,
   BankApp,
-  RealEstate
+  RealEstate,
+  CarShow
 };
