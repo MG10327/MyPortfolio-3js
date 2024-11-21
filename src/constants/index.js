@@ -123,7 +123,7 @@ import {
       iconBg: "#383E56",
       date: "February 2019 - December 2020",
       points: [
-        "Maintained several ColdFusion based websites and systems on a small team of developers",
+        "Maintained several websites on a small team of developers",
         "Re-designed and built the new RapidCourt Front End with React, HTML, CSS, and JavaScript",
         "Participated in Project meetings to keep project completion on track",
         "Spearheaded developing a new system to meet all departments internal needs.",
