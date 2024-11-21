@@ -137,7 +137,7 @@ import {
       iconBg: "#E6DEDD",
       date: "December 2020 - Present",
       points: [
-        "Led several projects at Apple during Agile project splits, all built in React, HTML, CSS, and JavaScript and Handlebars",
+        "Led several projects at Apple during Agile project splits, all built in React, HTML, CSS / SASS, and JavaScript and Handlebars",
         "Worked with a large Design, Developer, and QA team to update all Apple watch pages, create new Javascript animations, and code out pixel perfect sites.",
         "Wrote team wide documentation to help myself, more seasoned developers, and newer devs solve errors quickly and on-board others.",
         "Participated in code reviews and provided constructive feedback to other developers.",
