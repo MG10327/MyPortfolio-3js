@@ -209,7 +209,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: RealEstate,
+      image: CarShow,
       source_code_link: "https://github.com/MG10327/CarShow",
       live_demo_link: "https://car-show-htoozoccs-mg10327s-projects.vercel.app/"
     },
