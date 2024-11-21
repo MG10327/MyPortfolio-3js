@@ -403,28 +403,6 @@ import {
       source_code_link: "https://github.com/MG10327/TodoList",
       live_demo_link: "https://todo-list-three-vert.vercel.app/"
     },
-    {
-      name: "Tic Tac Toe",
-      description:
-        "A simple React Tic Tac Toe application that records user inputs and decides a winner based on a set of Javascript combinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: TicTacToe,
-      source_code_link: "https://github.com/MG10327/TicTacToe-FrontEnd/tree/main",
-      live_demo_link: "https://tic-tac-toe-front-end-sigma.vercel.app/"
-    },
   ];
   
   export { services, technologies, experiences, projects };
