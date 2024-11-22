@@ -361,28 +361,6 @@ import {
       live_demo_link: "https://sign-up-form-front-end.vercel.app/"
     },
     {
-      name: "Weather App",
-      description:
-        "A weather app that uses the Open Weather API to show the weather of different places on earth.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Weather,
-      source_code_link: "https://github.com/MG10327/WeatherApp/tree/main",
-      live_demo_link: "https://weather-app-murex-alpha-98.vercel.app/"
-    },
-    {
       name: "Todo List",
       description:
         "This Todo list manages the state of items, adds and deletes, and uses local storage to keep the user's data after they leave.",
@@ -403,6 +381,28 @@ import {
       image: TodoList,
       source_code_link: "https://github.com/MG10327/TodoList",
       live_demo_link: "https://todo-list-three-vert.vercel.app/"
+    },
+    {
+      name: "Weather App",
+      description:
+        "A weather app that uses the Open Weather API to show the weather of different places on earth.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Weather,
+      source_code_link: "https://github.com/MG10327/WeatherApp/tree/main",
+      live_demo_link: "https://weather-app-murex-alpha-98.vercel.app/"
     },
   ];
   
