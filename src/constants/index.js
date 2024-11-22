@@ -149,7 +149,7 @@ import {
 
   const projects = [
     {
-      name: "VidTube (Rest API)",
+      name: "VidTube",
       description:
         "A Front End React App that uses the Youtube API to serve Youtube videos and Youtube data the same way the original website does. This project showcases use of REST API's, flex styles, reusable components, form handling, user search, and more.",
       tags: [
@@ -171,7 +171,7 @@ import {
       live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
     },
     {
-      name: "Real Estate (Rest API)",
+      name: "Real Estate",
       description:
         "This site displays Real Estate API Data with search and filter options for users. It also displays individual product pages that render each property's info. This showcases REST API use, flex styles, search and filter functionality, pagination, user controlled dropdown forms, form handling and much more.",
       tags: [
@@ -193,7 +193,7 @@ import {
       live_demo_link: "https://real-estate-oc3t44een-mg10327s-projects.vercel.app/"
     },
     {
-      name: "Car Show (Rest API)",
+      name: "Car Show",
       description:
         "This uses server side rendering (with a client side rendering variant) to display API data of cars from a dropdown search bar. It's a NextJS project that uses a combination of flex styles, React, HTML, JavaScript, Tailwind CSS, REST APIs, form handling, and a Show More button for continued scrolling.",
       tags: [
@@ -215,7 +215,7 @@ import {
       live_demo_link: "https://car-show-htoozoccs-mg10327s-projects.vercel.app/"
     },
     {
-      name: "iPhone 15 Pro Release (Static JSON Data)",
+      name: "iPhone 15 Pro Release",
       description:
         "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
       tags: [
@@ -237,7 +237,7 @@ import {
       live_demo_link: "https://i-phone-15-three.vercel.app/"
     },
     {
-      name: "Nike (Static JSON Data)",
+      name: "Nike",
       description:
         "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, tailwind styles, and standard react practices. A recreation of one of Nike's pages.",
       tags: [
@@ -259,7 +259,7 @@ import {
       live_demo_link: "https://nike-sigma-gules.vercel.app/"
     },
     {
-      name: "ChatGPT Remake (Rest API)",
+      name: "ChatGPT Remake",
       description:
         "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
       tags: [
@@ -281,7 +281,7 @@ import {
       live_demo_link: "https://chat-gpt-clone-vert-one.vercel.app/"
     },
     {
-      name: "Bank App (Static JSON Data)",
+      name: "Bank App",
       description:
         "A simple React App that uses static imported json data to to render text on the page. Reusable components, tailwind styles, along with various flex and gradient styles. Made to resemble a bank's homepage.",
       tags: [
@@ -321,7 +321,7 @@ import {
       live_demo_link: "https://bookshelf-app-jet.vercel.app/"
     },
     {
-      name: "Quiz App (Static JSON Data)",
+      name: "Quiz App",
       description:
         "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
       tags: [
@@ -365,7 +365,7 @@ import {
       live_demo_link: "https://sign-up-form-front-end.vercel.app/"
     },
     {
-      name: "Todo List (Static JSON Data)",
+      name: "Todo List",
       description:
         "This Todo list manages the state of items, adds and deletes, and uses local storage to keep the user's data after they leave.",
       tags: [
@@ -387,7 +387,7 @@ import {
       live_demo_link: "https://todo-list-three-vert.vercel.app/"
     },
     {
-      name: "Weather App (Rest API)",
+      name: "Weather App",
       description:
         "A weather app that uses the Open Weather API to show the weather of different places on earth.",
       tags: [
