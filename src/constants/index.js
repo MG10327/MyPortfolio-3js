@@ -26,6 +26,7 @@ import {
     BankApp,
     RealEstate,
     CarShow,
+    Nike
   } from "../assets";
   
   export const navLinks = [
@@ -276,6 +277,28 @@ import {
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
     },
     {
+      name: "Nike",
+      description:
+        "A single page web app that focuses on showing different Nike items on image click, flex layouts, tailwind styles, and standard react practices. A recreation of one of Nike's pages.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Nike,
+      source_code_link: "https://github.com/MG10327/Nike",
+      live_demo_link: "https://nike-sigma-gules.vercel.app/"
+    },
+    {
       name: "Bookshelf App",
       description:
         "A React Web App that lets users lookup books using an API that allows saving, rating, and leaving comments. This app also supports user registration and login functionality with authentication and data protection.",
@@ -314,28 +337,6 @@ import {
       image: QuizApp,
       source_code_link: "https://github.com/MG10327/QuizApp-FrontEnd/tree/main",
       live_demo_link: "https://quiz-app-front-6oldyx7zz-mg10327s-projects.vercel.app/"
-    },
-    {
-      name: "Basic Slider Web Page",
-      description:
-        "A single page web app with a slider that has play / pause options for video.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: slider,
-      source_code_link: "https://github.com/MG10327/BasicWebPage-FrontEnd",
-      live_demo_link: "https://basic-web-page-front-end.vercel.app/"
     },
     {
       name: "Front End Sign Up Form",

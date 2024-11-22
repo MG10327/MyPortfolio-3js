@@ -31,6 +31,7 @@ import iPhone15Pro from "./iPhone15Pro.png"
 import BankApp from "./BankApp.png"
 import RealEstate from "./RealEstate.png"
 import CarShow from "./CarShow.png"
+import Nike from "./Nike.png"
 
 export {
   backend,
@@ -62,5 +63,6 @@ export {
   iPhone15Pro,
   BankApp,
   RealEstate,
-  CarShow
+  CarShow,
+  Nike
 };
