@@ -237,6 +237,28 @@ import {
       live_demo_link: "https://i-phone-15-three.vercel.app/"
     },
     {
+      name: "Nike",
+      description:
+        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, flex layouts, tailwind styles, and standard react practices. A recreation of one of Nike's pages.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Nike,
+      source_code_link: "https://github.com/MG10327/Nike",
+      live_demo_link: "https://nike-sigma-gules.vercel.app/"
+    },
+    {
       name: "ChatGPT Remake",
       description:
         "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
@@ -275,28 +297,6 @@ import {
       image: BankApp,
       source_code_link: "https://github.com/MG10327/BankApp",
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
-    },
-    {
-      name: "Nike",
-      description:
-        "A single page web app that focuses on showing different Nike items on image click, flex layouts, tailwind styles, and standard react practices. A recreation of one of Nike's pages.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Nike,
-      source_code_link: "https://github.com/MG10327/Nike",
-      live_demo_link: "https://nike-sigma-gules.vercel.app/"
     },
     {
       name: "Bookshelf App",
