@@ -260,6 +260,28 @@ import {
       live_demo_link: "https://nike-sigma-gules.vercel.app/"
     },
     {
+      name: "Netflix",
+      description:
+        "A React Web App that lets users Sign up, Sign In, and Sign Out using Firebase Authentication. It renders TMDB REST API data to show movies and maps over that data to bring clickable titles that will show each movie's trailer. It's handled using a flex layout, built with Vite, and styled with SASS.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Netflix,
+      source_code_link: "https://github.com/MG10327/Netflix",
+      live_demo_link: "https://netflix-ebon-nine.vercel.app/"
+    },
+    {
       name: "ChatGPT Remake",
       description:
         "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
@@ -302,28 +324,6 @@ import {
       image: BankApp,
       source_code_link: "https://github.com/MG10327/BankApp",
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
-    },
-    {
-      name: "Netflix",
-      description:
-        "A React Web App that lets users Sign up, Sign In, and Sign Out using Firebase Authentication. It renders TMDB REST API data to show movies and maps over that data to bring clickable titles that will show each movie's trailer. It's handled using a flex layout, built with Vite, and styled with SASS.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Netflix,
-      source_code_link: "https://github.com/MG10327/Netflix",
-      live_demo_link: "https://netflix-ebon-nine.vercel.app/"
     },
     {
       name: "Quiz App",
