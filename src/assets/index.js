@@ -32,6 +32,7 @@ import BankApp from "./BankApp.png"
 import RealEstate from "./RealEstate.png"
 import CarShow from "./CarShow.png"
 import Nike from "./Nike.png"
+import Netflix from "./Netflix.png"
 
 export {
   backend,
@@ -64,5 +65,6 @@ export {
   BankApp,
   RealEstate,
   CarShow,
-  Nike
+  Nike,
+  Netflix
 };

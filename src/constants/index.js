@@ -26,7 +26,8 @@ import {
     BankApp,
     RealEstate,
     CarShow,
-    Nike
+    Nike,
+    Netflix
   } from "../assets";
   
   export const navLinks = [
@@ -303,22 +304,26 @@ import {
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
     },
     {
-      name: "Bookshelf App",
+      name: "Netflix",
       description:
-        "A React Web App that lets users lookup books using an API that allows saving, rating, and leaving comments. This app also supports user registration and login functionality with authentication and data protection.",
+        "A React Web App that lets users Sign up, Sign In, and Sign Out using Firebase Authentication. It renders TMDB REST API data to show movies and maps over that data to bring clickable titles that will show each movie's trailer. It's handled using a flex layout, built with Vite, and styled with SASS.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
           name: "sass",
           color: "pink-text-gradient",
         },
       ],
-      image: bookshelf,
-      source_code_link: "https://github.com/MG10327/Bookshelf-App/",
-      live_demo_link: "https://bookshelf-app-jet.vercel.app/"
+      image: Netflix,
+      source_code_link: "https://github.com/MG10327/Netflix",
+      live_demo_link: "https://netflix-ebon-nine.vercel.app/"
     },
     {
       name: "Quiz App",
