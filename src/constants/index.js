@@ -286,28 +286,6 @@ import {
       live_demo_link: "https://netflix-ebon-nine.vercel.app/"
     },
     {
-      name: "ChatGPT Remake",
-      description:
-        "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chatGPT,
-      source_code_link: "https://github.com/MG10327/ChatGPTClone",
-      live_demo_link: "https://chat-gpt-clone-vert-one.vercel.app/"
-    },
-    {
       name: "Bank App",
       description:
         "A simple React App that uses static imported json data to to render text on the page. Reusable components, Tailwind styles, along with various flex and gradient styles. Made to resemble a bank's homepage.",
@@ -328,6 +306,28 @@ import {
       image: BankApp,
       source_code_link: "https://github.com/MG10327/BankApp",
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
+    },
+    {
+      name: "ChatGPT Remake",
+      description:
+        "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chatGPT,
+      source_code_link: "https://github.com/MG10327/ChatGPTClone",
+      live_demo_link: "https://chat-gpt-clone-vert-one.vercel.app/"
     },
     {
       name: "Quiz App",
