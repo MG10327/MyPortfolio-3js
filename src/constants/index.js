@@ -155,15 +155,15 @@ import {
         "A Front End React App that uses the Youtube API to serve Youtube videos and Youtube data the same way the original website does. This project showcases use of REST API's, flex styles, reusable components, form handling, user search, and more.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "sass",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
@@ -177,7 +177,7 @@ import {
         "This site displays Real Estate API Data with search and filter options for users. It also displays individual product pages that render each property's info. This showcases REST API use, flex styles, search and filter functionality, pagination, user controlled dropdown forms, form handling and much more.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -199,7 +199,7 @@ import {
         "This uses server side rendering (with a client side rendering variant) to display API data of cars from a dropdown search bar. It's a NextJS project that uses a combination of flex styles, React, HTML, JavaScript, Tailwind CSS, REST APIs, form handling, and a Show More button for continued scrolling.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -207,7 +207,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -221,15 +221,15 @@ import {
         "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
@@ -240,18 +240,18 @@ import {
     {
       name: "Nike",
       description:
-        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, tailwind styles, and standard react practices. A recreation of one of Nike's pages.",
+        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, Tailwind styles, and standard React practices. A recreation of one of Nike's pages.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -265,16 +265,20 @@ import {
         "A React Web App that lets users Sign up, Sign In, and Sign Out using Firebase Authentication. It renders TMDB REST API data to show movies and maps over that data to bring clickable titles that will show each movie's trailer. It's handled using a flex layout, built with Vite, and styled with SASS.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "sass",
+          name: "Sass",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "orange-text-gradient",
         },
       ],
       image: Netflix,
@@ -287,15 +291,15 @@ import {
         "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
@@ -306,18 +310,18 @@ import {
     {
       name: "Bank App",
       description:
-        "A simple React App that uses static imported json data to to render text on the page. Reusable components, tailwind styles, along with various flex and gradient styles. Made to resemble a bank's homepage.",
+        "A simple React App that uses static imported json data to to render text on the page. Reusable components, Tailwind styles, along with various flex and gradient styles. Made to resemble a bank's homepage.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -331,15 +335,15 @@ import {
         "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "sass",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
@@ -353,15 +357,15 @@ import {
         "A basic React Front End only sign up form.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "sass",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
@@ -375,15 +379,15 @@ import {
         "This Todo list manages the state of items, adds and deletes, and uses local storage to keep the user's data after they leave.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -397,15 +401,15 @@ import {
         "A weather app that uses the Open Weather API to show the weather of different places on earth.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "vite",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "sass",
+          name: "Sass",
           color: "pink-text-gradient",
         },
       ],
