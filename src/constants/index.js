@@ -181,12 +181,12 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "nextjs",
-          color: "green-text-gradient",
+          name: "NextJS",
+          color: "teal-purple-text-gradient",
         },
         {
-          name: "chakraui",
-          color: "pink-text-gradient",
+          name: "ChakraUI",
+          color: "purple-pink-text-gradient",
         },
       ],
       image: RealEstate,
@@ -203,12 +203,12 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "nextjs",
-          color: "green-text-gradient",
+          name: "NextJS",
+          color: "teal-purple-text-gradient",
         },
         {
           name: "Tailwind",
-          color: "pink-text-gradient",
+          color: "red-orange-text-gradient",
         },
       ],
       image: CarShow,
@@ -252,7 +252,7 @@ import {
         },
         {
           name: "Tailwind",
-          color: "pink-text-gradient",
+          color: "red-orange-text-gradient",
         },
       ],
       image: Nike,
@@ -322,7 +322,7 @@ import {
         },
         {
           name: "Tailwind",
-          color: "pink-text-gradient",
+          color: "red-orange-text-gradient",
         },
       ],
       image: BankApp,
@@ -388,7 +388,7 @@ import {
         },
         {
           name: "Tailwind",
-          color: "pink-text-gradient",
+          color: "red-orange-text-gradient",
         },
       ],
       image: TodoList,
