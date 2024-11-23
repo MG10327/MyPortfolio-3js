@@ -216,50 +216,6 @@ import {
       live_demo_link: "https://car-show-htoozoccs-mg10327s-projects.vercel.app/"
     },
     {
-      name: "iPhone 15 Pro Release",
-      description:
-        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: iPhone15Pro,
-      source_code_link: "https://github.com/MG10327/iPhoneSite",
-      live_demo_link: "https://i-phone-15-three.vercel.app/"
-    },
-    {
-      name: "Nike",
-      description:
-        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, Tailwind styles, and standard React practices. A recreation of one of Nike's pages.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-      ],
-      image: Nike,
-      source_code_link: "https://github.com/MG10327/Nike",
-      live_demo_link: "https://nike-sigma-gules.vercel.app/"
-    },
-    {
       name: "Netflix",
       description:
         "A React Web App that lets users Sign up, Sign In, and Sign Out using Firebase Authentication. It renders TMDB REST API data to show movies and maps over that data to bring clickable titles that will show each movie's trailer. It's handled using a flex layout, built with Vite, and styled with SASS.",
@@ -284,6 +240,50 @@ import {
       image: Netflix,
       source_code_link: "https://github.com/MG10327/Netflix",
       live_demo_link: "https://netflix-ebon-nine.vercel.app/"
+    },
+    {
+      name: "Nike",
+      description:
+        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, Tailwind styles, and standard React practices. A recreation of one of Nike's pages.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+      ],
+      image: Nike,
+      source_code_link: "https://github.com/MG10327/Nike",
+      live_demo_link: "https://nike-sigma-gules.vercel.app/"
+    },
+    {
+      name: "iPhone 15 Pro Release",
+      description:
+        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: iPhone15Pro,
+      source_code_link: "https://github.com/MG10327/iPhoneSite",
+      live_demo_link: "https://i-phone-15-three.vercel.app/"
     },
     {
       name: "Bank App",
