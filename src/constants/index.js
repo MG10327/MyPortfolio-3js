@@ -166,6 +166,10 @@ import {
           name: "Sass",
           color: "pink-text-gradient",
         },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
+        },
       ],
       image: VidTube,
       source_code_link: "https://github.com/MG10327/YoutubeClone",
@@ -188,6 +192,10 @@ import {
           name: "ChakraUI",
           color: "purple-pink-text-gradient",
         },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
+        },
       ],
       image: RealEstate,
       source_code_link: "https://github.com/MG10327/RealEstate",
@@ -209,6 +217,10 @@ import {
         {
           name: "Tailwind",
           color: "red-orange-text-gradient",
+        },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
         },
       ],
       image: CarShow,
@@ -236,6 +248,10 @@ import {
           name: "Firebase",
           color: "orange-text-gradient",
         },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
+        },
       ],
       image: Netflix,
       source_code_link: "https://github.com/MG10327/Netflix",
@@ -257,6 +273,10 @@ import {
         {
           name: "Tailwind",
           color: "red-orange-text-gradient",
+        },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
         },
       ],
       image: Nike,
@@ -280,6 +300,10 @@ import {
           name: "Sass",
           color: "pink-text-gradient",
         },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
+        },
       ],
       image: iPhone15Pro,
       source_code_link: "https://github.com/MG10327/iPhoneSite",
@@ -301,6 +325,10 @@ import {
         {
           name: "Tailwind",
           color: "red-orange-text-gradient",
+        },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
         },
       ],
       image: BankApp,
@@ -324,6 +352,10 @@ import {
           name: "Sass",
           color: "pink-text-gradient",
         },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
+        },
       ],
       image: chatGPT,
       source_code_link: "https://github.com/MG10327/ChatGPTClone",
@@ -345,6 +377,10 @@ import {
         {
           name: "Sass",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
         },
       ],
       image: QuizApp,
@@ -368,6 +404,10 @@ import {
           name: "Sass",
           color: "pink-text-gradient",
         },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
+        },
       ],
       image: FESignup,
       source_code_link: "https://github.com/MG10327/SignUpForm-FrontEnd/tree/main",
@@ -390,6 +430,10 @@ import {
           name: "Tailwind",
           color: "red-orange-text-gradient",
         },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
+        },
       ],
       image: TodoList,
       source_code_link: "https://github.com/MG10327/TodoList",
@@ -411,6 +455,10 @@ import {
         {
           name: "Sass",
           color: "pink-text-gradient",
+        },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
         },
       ],
       image: Weather,
