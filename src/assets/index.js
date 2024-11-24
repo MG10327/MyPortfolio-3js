@@ -33,6 +33,7 @@ import RealEstate from "./RealEstate.png"
 import CarShow from "./CarShow.png"
 import Nike from "./Nike.png"
 import Netflix from "./Netflix.png"
+import AnimationShowcase from "./AnimationShowcase.png"
 
 export {
   backend,
@@ -66,5 +67,6 @@ export {
   RealEstate,
   CarShow,
   Nike,
-  Netflix
+  Netflix,
+  AnimationShowcase
 };

@@ -27,7 +27,8 @@ import {
     RealEstate,
     CarShow,
     Nike,
-    Netflix
+    Netflix,
+    AnimationShowcase
   } from "../assets";
   
   export const navLinks = [
@@ -336,9 +337,9 @@ import {
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
     },
     {
-      name: "ChatGPT Remake",
+      name: "Animation Showcase",
       description:
-        "A React Web application that enables users to request and receive detailed responses from the OpenAI API. The same way the original Chat GPT functions.",
+        "This is an animation showcase that highlights transitions between videos, scroll animations, bento tilt animations, SVG animations, video heros, hover animations, text animations and more.",
       tags: [
         {
           name: "React",
@@ -352,14 +353,10 @@ import {
           name: "Sass",
           color: "pink-text-gradient",
         },
-        {
-          name: "REST API Data",
-          color: "orange-red-text-gradient",
-        },
       ],
-      image: chatGPT,
-      source_code_link: "https://github.com/MG10327/ChatGPTClone",
-      live_demo_link: "https://chat-gpt-clone-vert-one.vercel.app/"
+      image: AnimationShowcase,
+      source_code_link: "https://github.com/MG10327/AnimationShowcase",
+      live_demo_link: "https://animation-showcase-drab.vercel.app/"
     },
     {
       name: "Quiz App",
