@@ -358,110 +358,110 @@ import {
       source_code_link: "https://github.com/MG10327/AnimationShowcase",
       live_demo_link: "https://animation-showcase-drab.vercel.app/"
     },
-    {
-      name: "Quiz App",
-      description:
-        "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Imported Data",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: QuizApp,
-      source_code_link: "https://github.com/MG10327/QuizApp-FrontEnd/tree/main",
-      live_demo_link: "https://quiz-app-front-6oldyx7zz-mg10327s-projects.vercel.app/"
-    },
-    {
-      name: "Front End Sign Up Form",
-      description:
-        "A basic React Front End only sign up form.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Imported Data",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: FESignup,
-      source_code_link: "https://github.com/MG10327/SignUpForm-FrontEnd/tree/main",
-      live_demo_link: "https://sign-up-form-front-end.vercel.app/"
-    },
-    {
-      name: "Todo List",
-      description:
-        "This Todo list manages the state of items, adds and deletes, and uses local storage to keep the user's data after they leave.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-        {
-          name: "Imported Data",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: TodoList,
-      source_code_link: "https://github.com/MG10327/TodoList",
-      live_demo_link: "https://todo-list-three-vert.vercel.app/"
-    },
-    {
-      name: "Weather App",
-      description:
-        "A weather app that uses the Open Weather API to show the weather of different places on earth.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "REST API Data",
-          color: "orange-red-text-gradient",
-        },
-      ],
-      image: Weather,
-      source_code_link: "https://github.com/MG10327/WeatherApp/tree/main",
-      live_demo_link: "https://weather-app-murex-alpha-98.vercel.app/"
-    },
+    // {
+    //   name: "Quiz App",
+    //   description:
+    //     "A small 5 question Quiz App that checks correct and incorrect answers, then scores the user after they finish.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Sass",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "Imported Data",
+    //       color: "red-violet-text-gradient",
+    //     },
+    //   ],
+    //   image: QuizApp,
+    //   source_code_link: "https://github.com/MG10327/QuizApp-FrontEnd/tree/main",
+    //   live_demo_link: "https://quiz-app-front-6oldyx7zz-mg10327s-projects.vercel.app/"
+    // },
+    // {
+    //   name: "Front End Sign Up Form",
+    //   description:
+    //     "A basic React Front End only sign up form.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Sass",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "Imported Data",
+    //       color: "red-violet-text-gradient",
+    //     },
+    //   ],
+    //   image: FESignup,
+    //   source_code_link: "https://github.com/MG10327/SignUpForm-FrontEnd/tree/main",
+    //   live_demo_link: "https://sign-up-form-front-end.vercel.app/"
+    // },
+    // {
+    //   name: "Todo List",
+    //   description:
+    //     "This Todo list manages the state of items, adds and deletes, and uses local storage to keep the user's data after they leave.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Tailwind",
+    //       color: "red-orange-text-gradient",
+    //     },
+    //     {
+    //       name: "Imported Data",
+    //       color: "red-violet-text-gradient",
+    //     },
+    //   ],
+    //   image: TodoList,
+    //   source_code_link: "https://github.com/MG10327/TodoList",
+    //   live_demo_link: "https://todo-list-three-vert.vercel.app/"
+    // },
+    // {
+    //   name: "Weather App",
+    //   description:
+    //     "A weather app that uses the Open Weather API to show the weather of different places on earth.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Sass",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "REST API Data",
+    //       color: "orange-red-text-gradient",
+    //     },
+    //   ],
+    //   image: Weather,
+    //   source_code_link: "https://github.com/MG10327/WeatherApp/tree/main",
+    //   live_demo_link: "https://weather-app-murex-alpha-98.vercel.app/"
+    // },
   ];
   
   export { services, technologies, experiences, projects };
