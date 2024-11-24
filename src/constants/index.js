@@ -350,8 +350,8 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Sass",
-          color: "pink-text-gradient",
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
         },
       ],
       image: AnimationShowcase,
