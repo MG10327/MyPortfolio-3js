@@ -67,7 +67,10 @@ const Projects = () => {
           />
         ))}
       </div>
+        <div className="flex justify-center items-center mt-10">
+          <a className='text-white font-black md:text-[30px] sm:text-[25px] xs:text-[20px] text-[15px] text-center' href='https://github.com/MG10327' target='_blank'>Click here to view more projects</a>
 
+        </div>
     </div>
   )
 }
