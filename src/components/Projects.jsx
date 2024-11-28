@@ -50,7 +50,7 @@ const Projects = () => {
         <p className={styles.sectionHeadText}>Projects.</p>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='w-full flex'> asdasdasdasdasd
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className=' m-20 my-4 text-gray-300 text-[17px] max-w-3xl leading-[30px]'>
@@ -69,7 +69,6 @@ const Projects = () => {
       </div>
         <div className="flex justify-center items-center mt-10">
           <a className='text-white font-black md:text-[30px] sm:text-[25px] xs:text-[20px] text-[15px] text-center' href='https://github.com/MG10327' target='_blank'>Click here to view more projects</a>
-
         </div>
     </div>
   )
