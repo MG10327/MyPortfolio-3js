@@ -34,12 +34,14 @@ import CarShow from "./CarShow.png"
 import Nike from "./Nike.png"
 import Netflix from "./Netflix.png"
 import AnimationShowcase from "./AnimationShowcase.png"
+import Fizzy from "./Fizzy.png"
 
 export {
   backend,
   creator,
   mobile,
   web,
+  Fizzy,
   github,
   menu,
   close,

@@ -13,6 +13,7 @@ import {
     criticalmass,
     codesit,
     rapidcourt,
+    Fizzy,
     slider,
     bookshelf,
     chatGPT,
@@ -94,7 +95,7 @@ import {
   
   const experiences = [
     {
-      title: "Junior Full Stack Developer",
+      title: "Junior Front End Developer",
       company_name: "E-Dreamz",
       icon: edreamz,
       iconBg: "#383E56",
@@ -120,7 +121,7 @@ import {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Front End Developer",
       company_name: "RapidCourt",
       icon: rapidcourt,
       iconBg: "#383E56",
@@ -177,35 +178,9 @@ import {
       live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
     },
     {
-      name: "Real Estate",
+      name: "Fizzy",
       description:
-        "This site displays Real Estate API Data with search and filter options for users. It also displays individual product pages that render each property's info. This showcases REST API use, flex styles, search and filter functionality, pagination, user controlled dropdown forms, form handling and much more.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NextJS",
-          color: "teal-purple-text-gradient",
-        },
-        {
-          name: "ChakraUI",
-          color: "purple-pink-text-gradient",
-        },
-        {
-          name: "REST API Data",
-          color: "orange-red-text-gradient",
-        },
-      ],
-      image: RealEstate,
-      source_code_link: "https://github.com/MG10327/RealEstate",
-      live_demo_link: "https://real-estate-oc3t44een-mg10327s-projects.vercel.app/"
-    },
-    {
-      name: "Car Show",
-      description:
-        "This uses server side rendering (with a client side rendering variant) to display API data of cars from a dropdown search bar. It's a NextJS project that uses a combination of flex styles, React, HTML, JavaScript, Tailwind CSS, REST APIs, form handling, and a Show More button for continued scrolling.",
+        "This Next.js project uses several different GSAP animations along with React Three Drei to animate 3d objects to create a vivid user experience.",
       tags: [
         {
           name: "React",
@@ -220,14 +195,96 @@ import {
           color: "red-orange-text-gradient",
         },
         {
-          name: "REST API Data",
+          name: "GSAP",
           color: "orange-red-text-gradient",
         },
       ],
-      image: CarShow,
-      source_code_link: "https://github.com/MG10327/CarShow",
-      live_demo_link: "https://car-show-htoozoccs-mg10327s-projects.vercel.app/"
+      image: Fizzy,
+      source_code_link: "https://github.com/MG10327/Fizzi-Landing",
+      live_demo_link: "https://fizzi-landing-gray.vercel.app/"
     },
+
+    {
+      name: "Animation Showcase",
+      description:
+        "This is an animation showcase that highlights transitions between videos, scroll animations, bento tilt animations, SVG animations, video heros, hover animations, text animations and more.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "red-violet-text-gradient",
+        },
+      ],
+      image: AnimationShowcase,
+      source_code_link: "https://github.com/MG10327/AnimationShowcase",
+      live_demo_link: "https://animation-showcase-drab.vercel.app/"
+    },
+
+    {
+      name: "iPhone 15 Pro Release",
+      description:
+        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sass",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "red-violet-text-gradient",
+        },
+      ],
+      image: iPhone15Pro,
+      source_code_link: "https://github.com/MG10327/iPhoneSite",
+      live_demo_link: "https://i-phone-15-three.vercel.app/"
+    },
+
+    {
+      name: "Nike",
+      description:
+        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, Tailwind styles, and standard React practices. A recreation of one of Nike's pages.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+        {
+          name: "Imported Data",
+          color: "red-violet-text-gradient",
+        },
+      ],
+      image: Nike,
+      source_code_link: "https://github.com/MG10327/Nike",
+      live_demo_link: "https://nike-sigma-gules.vercel.app/"
+    },
+
     {
       name: "Netflix",
       description:
@@ -259,58 +316,6 @@ import {
       live_demo_link: "https://netflix-ebon-nine.vercel.app/"
     },
     {
-      name: "Nike",
-      description:
-        "A single page web app that focuses on showing different Nike items on image click, rendering from an imported json list, reusable components flex layouts, Tailwind styles, and standard React practices. A recreation of one of Nike's pages.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-        {
-          name: "Imported Data",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: Nike,
-      source_code_link: "https://github.com/MG10327/Nike",
-      live_demo_link: "https://nike-sigma-gules.vercel.app/"
-    },
-    {
-      name: "iPhone 15 Pro Release",
-      description:
-        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Imported Data",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: iPhone15Pro,
-      source_code_link: "https://github.com/MG10327/iPhoneSite",
-      live_demo_link: "https://i-phone-15-three.vercel.app/"
-    },
-    {
       name: "Bank App",
       description:
         "A simple React App that uses static imported json data to to render text on the page. Reusable components, Tailwind styles, along with various flex and gradient styles. Made to resemble a bank's homepage.",
@@ -336,27 +341,32 @@ import {
       source_code_link: "https://github.com/MG10327/BankApp",
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
     },
+
     {
-      name: "Animation Showcase",
+      name: "Real Estate",
       description:
-        "This is an animation showcase that highlights transitions between videos, scroll animations, bento tilt animations, SVG animations, video heros, hover animations, text animations and more.",
+        "This site displays Real Estate API Data with search and filter options for users. It also displays individual product pages that render each property's info. This showcases REST API use, flex styles, search and filter functionality, pagination, user controlled dropdown forms, form handling and much more.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Vite",
-          color: "green-text-gradient",
+          name: "NextJS",
+          color: "teal-purple-text-gradient",
         },
         {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
+          name: "ChakraUI",
+          color: "purple-pink-text-gradient",
+        },
+        {
+          name: "REST API Data",
+          color: "orange-red-text-gradient",
         },
       ],
-      image: AnimationShowcase,
-      source_code_link: "https://github.com/MG10327/AnimationShowcase",
-      live_demo_link: "https://animation-showcase-drab.vercel.app/"
+      image: RealEstate,
+      source_code_link: "https://github.com/MG10327/RealEstate",
+      live_demo_link: "https://real-estate-oc3t44een-mg10327s-projects.vercel.app/"
     },
     // {
     //   name: "Quiz App",
