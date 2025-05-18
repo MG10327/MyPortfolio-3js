@@ -178,6 +178,60 @@ import {
       source_code_link: "https://github.com/MG10327/Skateboardia",
       live_demo_link: "https://skateboardia-aghx0efkk-mg10327s-projects.vercel.app/"
     },
+    {
+      name: "Animation Showcase",
+      description:
+        "This is an animation showcase that highlights transitions between videos, scroll animations, bento tilt animations, SVG animations, video heros, hover animations, text animations and more.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "red-violet-text-gradient",
+        },
+      ],
+      image: AnimationShowcase,
+      source_code_link: "https://github.com/MG10327/AnimationShowcase",
+      live_demo_link: "https://animation-showcase-drab.vercel.app/"
+    },
+
+
+    {
+      name: "iPhone 15 Pro Release",
+      description:
+        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sass",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "red-violet-text-gradient",
+        },
+      ],
+      image: iPhone15Pro,
+      source_code_link: "https://github.com/MG10327/iPhoneSite",
+      live_demo_link: "https://i-phone-15-three.vercel.app/"
+    },
 
     {
       name: "Fizzy",
@@ -207,59 +261,6 @@ import {
     },
 
     {
-      name: "Animation Showcase",
-      description:
-        "This is an animation showcase that highlights transitions between videos, scroll animations, bento tilt animations, SVG animations, video heros, hover animations, text animations and more.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-        {
-          name: "GSAP",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: AnimationShowcase,
-      source_code_link: "https://github.com/MG10327/AnimationShowcase",
-      live_demo_link: "https://animation-showcase-drab.vercel.app/"
-    },
-
-    {
-      name: "iPhone 15 Pro Release",
-      description:
-        "This site showcases Scroll trigger animations, fitting videos into containers, GSAP animations, and a highlights section that has a timed video carousel that users can navigate with their mouses to view the features of the iPhone 15 Pro.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sass",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "GSAP",
-          color: "red-violet-text-gradient",
-        },
-      ],
-      image: iPhone15Pro,
-      source_code_link: "https://github.com/MG10327/iPhoneSite",
-      live_demo_link: "https://i-phone-15-three.vercel.app/"
-    },
-    {
       name: "VidTube",
       description:
         "A Front End React App that uses the Youtube API to serve Youtube videos and Youtube data the same way the original website does. This project showcases use of REST API's, flex styles, reusable components, form handling, user search, and more.",
@@ -284,28 +285,6 @@ import {
       image: VidTube,
       source_code_link: "https://github.com/MG10327/YoutubeClone",
       live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
-    },
-    {
-      name: "Nike",
-      description:
-        "A single page web app that focuses on showing different Nike items on image click, reusable components flex layouts, and Tailwind styles. A recreation of one of Nike's pages.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-      ],
-      image: Nike,
-      source_code_link: "https://github.com/MG10327/Nike",
-      live_demo_link: "https://nike-sigma-gules.vercel.app/"
     },
 
     {
@@ -359,6 +338,28 @@ import {
       image: BankApp,
       source_code_link: "https://github.com/MG10327/BankApp",
       live_demo_link: "https://bank-app-blue-delta.vercel.app/"
+    },
+{
+      name: "Nike",
+      description:
+        "A single page web app that focuses on showing different Nike items on image click, reusable components flex layouts, and Tailwind styles. A recreation of one of Nike's pages.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+      ],
+      image: Nike,
+      source_code_link: "https://github.com/MG10327/Nike",
+      live_demo_link: "https://nike-sigma-gules.vercel.app/"
     },
 
   ];
