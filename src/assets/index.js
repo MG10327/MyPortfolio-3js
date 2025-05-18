@@ -35,6 +35,7 @@ import Nike from "./Nike.png"
 import Netflix from "./Netflix.png"
 import AnimationShowcase from "./AnimationShowcase.png"
 import Fizzy from "./Fizzy.png"
+import Skateboardia from "./Skateboardia.png"
 
 export {
   backend,
@@ -70,5 +71,6 @@ export {
   CarShow,
   Nike,
   Netflix,
-  AnimationShowcase
+  AnimationShowcase,
+  Skateboardia
 };
