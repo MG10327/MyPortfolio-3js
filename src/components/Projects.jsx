@@ -50,12 +50,12 @@ const Projects = () => {
         <p className={styles.sectionHeadText}>Projects.</p>
       </motion.div>
 
-      <div className='w-full flex'> asdasdasdasdasd
+      <div className='w-full flex'>
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className=' m-20 my-4 text-gray-300 text-[17px] max-w-3xl leading-[30px]'>
-            Each Project that you see here showcases my ability as a developer. The first batch showcases my skills as a Front End Developer.
-            Below you will see a link to a live demo for each project and a github link to view the source code, where I solved problems, flexed my skils, and improved my abilities along the way. They are all examples of growth towards the future.
+            Each Project that you see here showcases my ability as a developer. The first batch highlights animation skills with GSAP, clip path animations, video integration, mouse movement animations and other visual highlights. The second batch is a mixture of API work and other focal points.
+            Below you will see a link to a live demo for each project and a github link to view the source code, where I solved problems, flexed my skills, and improved my abilities along the way. They are all examples of growth towards the future.
         </motion.p>
       </div>
 
