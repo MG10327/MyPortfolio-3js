@@ -21,6 +21,7 @@ import criticalmass from "./company/criticalmasslogo.jpg";
 import slider from "./BasicSlider.png";
 import bookshelf from "./bookshelf.png";
 import chatGPT from "./chatGPT.png";
+import AirpodsPro from "./AirpodPros.png";
 import FESignup from "./FESignUp.png";
 import QuizApp from "./QuizApp.png";
 import TicTacToe from "./TicTacToe.png";
@@ -60,6 +61,7 @@ export {
   bookshelf,
   chatGPT,
   FESignup,
+  AirpodsPro,
   QuizApp,
   TicTacToe,
   VidTube,

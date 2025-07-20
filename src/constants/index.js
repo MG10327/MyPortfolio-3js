@@ -19,6 +19,7 @@ import {
     chatGPT,
     FESignup,
     QuizApp,
+    AirpodsPro,
     TicTacToe,
     VidTube,
     Weather,
@@ -360,6 +361,29 @@ import {
       image: Nike,
       source_code_link: "https://github.com/MG10327/Nike",
       live_demo_link: "https://nike-sigma-gules.vercel.app/"
+    },
+
+{
+      name: "Airpods Pro",
+      description:
+        "A single Page web app that uses Image sequencing, background video, text highlighting, reusable components flex layouts, and Tailwind styles. A recreation of the Apple Airpods Pro launch site.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextJS",
+          color: "teal-purple-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+      ],
+      image: AirpodsPro,
+      source_code_link: "https://github.com/MG10327/Airpods",
+      live_demo_link: "https://airpodspro-teal.vercel.app/"
     },
 
   ];
