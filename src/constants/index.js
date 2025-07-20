@@ -235,33 +235,6 @@ import {
     },
 
     {
-      name: "Fizzy",
-      description:
-        "This Next.js project uses several different GSAP animations along with React Three Drei to animate 3d objects to create a vivid user experience.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NextJS",
-          color: "teal-purple-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-        {
-          name: "GSAP",
-          color: "orange-red-text-gradient",
-        },
-      ],
-      image: Fizzy,
-      source_code_link: "https://github.com/MG10327/Fizzi-Landing",
-      live_demo_link: "https://fizzi-landing-gray.vercel.app/"
-    },
-
-    {
       name: "VidTube",
       description:
         "A Front End React App that uses the Youtube API to serve Youtube videos and Youtube data the same way the original website does. This project showcases use of REST API's, flex styles, reusable components, form handling, user search, and more.",
@@ -286,6 +259,33 @@ import {
       image: VidTube,
       source_code_link: "https://github.com/MG10327/YoutubeClone",
       live_demo_link: "https://youtube-clone-sooty-alpha.vercel.app/"
+    },
+
+    {
+      name: "Fizzy",
+      description:
+        "This Next.js project uses several different GSAP animations along with React Three Drei to animate 3d objects to create a vivid user experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextJS",
+          color: "teal-purple-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "orange-red-text-gradient",
+        },
+      ],
+      image: Fizzy,
+      source_code_link: "https://github.com/MG10327/Fizzi-Landing",
+      live_demo_link: "https://fizzi-landing-gray.vercel.app/"
     },
 
     {
@@ -319,28 +319,6 @@ import {
       live_demo_link: "https://netflix-ebon-nine.vercel.app/"
     },
     {
-      name: "Bank App",
-      description:
-        "A simple React App that advertises HooBank. Complete with reusable components, eye catching gradients, Tailwind styles, along with pixel perfect responsive flex layouts.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "red-orange-text-gradient",
-        },
-      ],
-      image: BankApp,
-      source_code_link: "https://github.com/MG10327/BankApp",
-      live_demo_link: "https://bank-app-blue-delta.vercel.app/"
-    },
-{
       name: "Nike",
       description:
         "A single page web app that focuses on showing different Nike items on image click, reusable components flex layouts, and Tailwind styles. A recreation of one of Nike's pages.",
@@ -362,8 +340,29 @@ import {
       source_code_link: "https://github.com/MG10327/Nike",
       live_demo_link: "https://nike-sigma-gules.vercel.app/"
     },
-
-{
+    {
+      name: "Bank App",
+      description:
+        "A simple React App that advertises HooBank. Complete with reusable components, eye catching gradients, Tailwind styles, along with pixel perfect responsive flex layouts.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "red-orange-text-gradient",
+        },
+      ],
+      image: BankApp,
+      source_code_link: "https://github.com/MG10327/BankApp",
+      live_demo_link: "https://bank-app-blue-delta.vercel.app/"
+    },
+    {
       name: "Airpods Pro",
       description:
         "A single Page web app that uses Image sequencing, background video, text highlighting, reusable components flex layouts, and Tailwind styles. A recreation of the Apple Airpods Pro launch site.",
